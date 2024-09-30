@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>rusdaniaa</title>
+    <link rel="icon" type="image/png" href="" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- sweetalert -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- aos animasi -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- loader -->
+    <div class="loader-wrapper">
+      <div class="loader-container">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="loader-container">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#">Rusdaniaa.</a>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Rusdaniaa.</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-lg-2 active"
+                  aria-current="page"
+                  href="#hero"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#certificates">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#skills">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fitur Star -->
+        
+        <a
+          class="navbar-brand"
+          href="https://github.com/rusdaniaa"
+          target="_blank"
+          ><i class="bi bi-github fs-3"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section
+      style="
+        background: linear-gradient(
+          to top,
+          #ffffff 0%,
+          #c3cfe2 30%,
+          #ffffff 100%
+        );
+      "
+    >
+      <div class="container" id="hero">
+        <div class="hero-row row flex-lg-row-reverse d-flex align-items-center">
+          <div
+            class="foto col-sm-12 col-lg-6"
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+          >
+            <img
+              src="img/nia.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              width="470"
+              loading="lazy"
+            />
+          </div>
+          <div class="hero-col col-lg-6">
+            <div class="hero-text">
+              <p
+                class="hero-greetings"
+                data-aos="fade-down"
+                data-aos-delay="1000"
+              >
+              
+              </p>
+              <h2 class="hero-nama" data-aos="fade-down" data-aos-delay="1050">
+                SITI RUSDANIYAH
+              </h2>
+              <p
+                class="hero-job text-secondary"
+                data-aos="fade-down"
+                data-aos-delay="1100"
+              >
+                Web Developer & UI/UX Designer
+              </p>
+            </div>
+            <div class="hero-button" data-aos="fade-down" data-aos-delay="1150">
+              <a
+                href="https://wa.me/+6282310774468"
+                class="btn btn-dark px-4 py-2"
+                target="_blank"
+                >Hubungi saya</a
+              >
+              <a
+                href="#projects"
+                class="hero-portofolio btn border-dark px-4 py-2 ms-2"
+                >Lihat Portofolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="container" id="about" data-aos="fade-down">
+      <h2 class="text-center about-title">About Me</h2>
+      <div class="about-row row mt-5">
+        <div class="about-col col-sm-12 col-md-12 col-lg-5 col-xl-5">
+          <img
+            src="img/rusdania.png"
+            class="img-about img-thumbnail"
+            width="500px"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 mt-4">
+          <h2 class="about-h2" style="font-family: Montserrat">Who Am I</h2>
+          <p
+            class="about-p fs-5 mt-3"
+            style="font-family: Georgia, 'Times New Roman', Times, serif"
+          >
+          Saya merupakan freshgraduate dari Prodi Manajemen Informatika Politeknik Negeri Jember(Polije).
+          Saya memiliki keahlian dalam HTML, CSS, JavaScript, Laravel, dan Bootstrap untuk membangun aplikasi web yang responsif dan fungsional. 
+          Selain itu, saya juga menguasai desain UI/UX menggunakan Figma, sehingga setiap proyek yang saya kerjakan tidak hanya berjalan dengan baik,
+          tetapi juga memberikan pengalaman pengguna yang luar biasa.
+
+          Saya selalu bersemangat untuk belajar hal-hal baru dan meningkatkan keterampilan saya, baik dalam pengembangan maupun desain. 
+          Tujuan saya adalah menciptakan solusi web yang efisien, ramah pengguna, dan menarik secara visual.
+          </p>
+          <hr class="about-hr my-4" />
+          <div class="row">
+            <div class="row-col col-sm-12 col-lg-6">
+              <p class="mb-1"><b>Nama</b> Siti Rusdaniyah</p>
+              <p class="row-p"><b>Umur</b> 22 Tahun</p>
+            </div>
+            <div class="row-col col-sm-12 col-lg-6">
+              <p class="mb-1"><b>Asal</b> Lumajang, Jawa Timur</p>
+              <p><b>Email</b> sitirusdaniyah2002@gmail.com</p>
+            </div>
+          </div>
+          <div class="about-a">
+            <a
+              class="btn btn-dark mt-2 px-4 py-2"
+              onclick="PrintPDF()"
+              target="_blank"
+              >My Resume</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="container" id="projects" data-aos="fade-down">
+      <h2 class="text-center projects-title">My Projects</h2>
+      <!-- card -->
+      <div
+        class="projek-card row mt-5"
+        style="padding-left: 7.5rem; padding-right: 7.5rem"
+      >
+        <div
+          class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4"
+          data-aos="flip-left"
+        >
+          <div class="card" style="width: 20rem">
+            <img
+              src="portofolioku/1 Sistem Peramalan.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sistem Peramalan Penjualan</h5>
+              <div class="mb-2">
+                <span class="badge rounded-pill text-bg-secondary"
+                  >Laravel</span
+                >
+                <span class="badge rounded-pill text-bg-secondary"
+                  >Bootstrap</span
+                >
+              </div>
+              <p class="card-text">
+                Sistem Peramalan Penjualan merupakan sistem yang dibangun untuk mengetahui tren penjualan .
+              </p>
+              <div class="pt-2">
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal1"
+                  >Detail</a
+                >
+                <a
+                href="https://github.com/Rusdaniaa/sistem-peramalan"
+                target="_blank"
+                class="btn border-dark border-1"
+                id="btn-preview"
+                >Preview</a
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4"
+          data-aos="flip-left"
+        >
+          <div class="card" style="width: 20rem">
+            <img src="portofolioku/2 sistem pengaduan.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lapor Lumajang</h5>
+              <div class="mb-2">
+                <span class="badge rounded-pill text-bg-secondary"
+                  >Laravel</span
+                >
+                <span class="badge rounded-pill text-bg-secondary"
+                  >Javascript</span
+                >
+              </div>
+              <p class="card-text">
+                Lapor Lumajang merupakan website untuk pengaduan masyarakat kepada pemerintah Kab. Lumajang.
+              </p>
+              <div class="pt-2">
+                <a
+                  href="#"
+                  class="btn btn-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal2"
+                  >Detail</a
+                >
+                <a
+                  href="https://github.com/Rusdaniaa/lapor_lmj"
+                  target="_blank"
+                  class="btn border-dark border-1"
+                  id="btn-preview"
+                  >Preview</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4"
+          data-aos="flip-left"
+        >
+          <div class="card" style="width: 20rem">
+            <img src="portofolioku/3 kasir.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Aplikasi Kasir</h5>
+              <div class="mb-2">
+                <span class="badge rounded-pill text-bg-secondary"
+                  >PHP Native</span
+                >
+               <span class="badge rounded-pill text-bg-secondary"
+                  >html</span
+                >
+                <span class="badge rounded-pill text-bg-secondary"
+                  >css</span
+                >
+
+              </div>
+              <p class="card-text">
+                Aplikasi Kasir merupakan aplikasi yang digunakan kasir untuk melayani pembelian oleh customer.
+              </p>
+              <div class="pt-2">
+                <a
+                  href="https://github.com/Rusdaniaa/kasir"
+                  class="btn btn-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal3"
+                  >Detail</a
+                >
+                <a
+                  class="btn border-dark border-1"
+                  id="btn-preview"
+                  onclick="sweetalert()"
+                  >Preview</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- hidden projek -->
+      <div id="collapseExample" class="collapse">
+        <div
+          class="projek-card row"
+          style="padding-left: 7.5rem; padding-right: 7.5rem"
+        >
+          <div class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card" style="width: 20rem">
+              <img
+                src="portofolioku/4 desain figma travel app.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"> Desain Aplikasi Jalan-jalan Yuk</h5>
+                <div class="mb-2">
+                  <span class="badge rounded-pill text-bg-secondary"
+                    >Figma</span
+                  >
+                </div>
+                <p class="card-text">
+                  Desain Aplikasi Jalan-jalan Yuk merupakan prototype aplikasi travel menggunakan figma
+                </p>
+                <div class="pt-2">
+                  <a
+                    href="#"
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal4"
+                    >Detail</a
+                  >
+                  <a
+                    href="https://www.figma.com/proto/aaCP7kMxWhn6zmnIgEp4yp/Day-1---Furniture-Apps?page-id=14%3A37&node-id=18-1022&node-type=canvas&viewport=478%2C255%2C0.5&t=Bokcs3y2Ar8UAKhm-1&scaling=min-zoom&content-scaling=fixed"
+                    target="_blank"
+                    class="btn border-dark border-1"
+                    id="btn-preview"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card" style="width: 20rem">
+              <img src="portofolioku/5 desain figma sofa.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Desain Landing Page Toko Sofa</h5>
+                <div class="mb-2">
+                  <span class="badge rounded-pill text-bg-secondary"
+                    >Figma</span
+                  >
+                </div>
+                <p class="card-text">
+                    Desain Landing Page Toko Sofa merupakan prototype website untuk landing page sebuah toko sofa.
+                </p>
+                <div class="pt-2">
+                  <a
+                    href="#"
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal5"
+                    >Detail</a
+                  >
+                  <a
+                    href="https://www.figma.com/proto/A56I6HJw9OuGeoYNkfncih/MYSKILL-Landing-Page?page-id=0%3A1&node-id=2-1150&node-type=frame&viewport=520%2C1663%2C0.43&t=yIAK0wL6St7G2I8T-1&scaling=min-zoom&content-scaling=fixed"
+                    class="btn border-dark border-1"
+                    id="btn-preview"
+                    onclick="sweetalert()"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="projek-col col-sm-12 col-md-12 col-lg-6 col-xl-4">
+            <div class="card" style="width: 20rem">
+              <img
+                src="portofolioku/Screenshot 2024-09-24 212555.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Aplikasi Presensi</h5>
+                <div class="mb-2">
+                  <span class="badge rounded-pill text-bg-secondary"
+                    >Java</span
+                  >
+                </div>
+                <p class="card-text">
+                  Aplikasi presensi ini merupakan aplikasi mobile untuk presensi berdasarkan titik koordinat yang dibuat dengan bahasa Java.
+                </p>
+                <div class="pt-2">
+                  <a
+                    href="#"
+                    class="btn btn-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal6"
+                    >Detail</a
+                  >
+                  <a
+                    class="btn border-dark border-1"
+                    id="btn-preview"
+                    onclick="sweetalert()"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- tombol view all projects -->
+      <div class="projek-button text-center mt-5">
+        <button
+          class="btn btn-dark px-4 py-2"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          View all projects <i class="bi bi-arrow-right-circle"></i>
+        </button>
+      </div>
+
+      <!-- modal 1 -->
+      <div
+        class="modal fade"
+        id="modal1"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Sistem Peramalan Penjualan</h1>
+              <span class="badge rounded-pill text-bg-secondary">Laravel</span>
+              <span class="badge rounded-pill text-bg-secondary"
+                >Bootstrap</span
+              >
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Sistem Peramalan Penjualan Toko Asshofa merupakan sistem yang dibangun untuk mengetahui tren penjualan pada sebuah toko.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Web</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Full-Stack Developer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link Website
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a
+                      href="https://github.com/Rusdaniaa/sistem-peramalan"
+                      class="modal-p text-secondary"
+                      >rusdaniaa</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 2 -->
+      <div
+        class="modal fade"
+        id="modal2"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1488866022504-f2584929ca5f?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Lapor Lumajang</h1>
+              <span class="badge rounded-pill text-bg-secondary"
+                >Laravel</span
+              >
+              <span class="badge rounded-pill text-bg-secondary"
+                >Bootstrap</span
+              >
+                           <span class="badge rounded-pill text-bg-secondary"
+                >Javascript</span
+              >
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Lapor Lumajang merupakan website untuk pengaduan masyarakat kepada pemerintah daerah Kab. Lumajang.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Web</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Full-Stack Developer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link Website
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a
+                      href="https://github.com/Rusdaniaa/lapor_lmj"
+                      class="modal-p text-secondary"
+                      >lapor</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 3 -->
+      <div
+        class="modal fade"
+        id="modal3"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1570586437263-ab629fccc818?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Aplikasi Kasir</h1>
+              <span class="badge rounded-pill text-bg-secondary"
+                >Php Native</span
+              >
+              <span class="badge rounded-pill text-bg-secondary"
+                >html</span
+              >
+              <span class="badge rounded-pill text-bg-secondary"
+                >css</span
+              >
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Aplikasi Kasir merupakan aplikasi yang digunakan kasir untuk melayani pembelian oleh customer.
+                       pada aplikasi ini kasir juga dapat mencatat kode dan jumlah barang yang tersedia.
+                       serta dapat mencatat pembelian dan tanggal barang.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Web</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Full-Stack Developer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link Website
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a href="https://github.com/Rusdaniaa/kasir" class="modal-p text-secondary"
+                      >kasir</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 4 -->
+      <div
+        class="modal fade"
+        id="modal4"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1529641484336-ef35148bab06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Desain Aplikasi Jalan-jalan Yuk</h1>
+              <span class="badge rounded-pill text-bg-secondary"
+                >Figma</span
+              >
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Desain Aplikasi Jalan-jalan Yuk merupakan prototype aplikasi travel menggunakan figma. pada desain ini menampilkan hompage yang terdiri dari pencarian destinasi dan rekomendasi berdasarkan daerah pengunjung.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Desain UI</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Designer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a
+                      href="https://www.figma.com/proto/aaCP7kMxWhn6zmnIgEp4yp/Day-1---Furniture-Apps?page-id=14%3A37&node-id=18-1022&node-type=canvas&viewport=478%2C255%2C0.5&t=Bokcs3y2Ar8UAKhm-1&scaling=min-zoom&content-scaling=fixed"
+                      class="modal-p text-secondary"
+                      >figma</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 5 -->
+      <div
+        class="modal fade"
+        id="modal5"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Desain Landing Page Toko Sofa</h1>
+              <span class="badge rounded-pill text-bg-secondary"
+                >Figma</span
+              >
+
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                       Desain Landing Page Toko Sofa merupakan prototype website untuk landing page sebuah toko sofa. Desain ini dibuat berdasarkan desain principle UI. Tools desain kali ini menggunakan Figma.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Desain UI</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Designer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link Website
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a class="modal-p text-secondary text-decoration-none" href="https://www.figma.com/proto/A56I6HJw9OuGeoYNkfncih/MYSKILL-Landing-Page?page-id=0%3A1&node-id=2-1150&node-type=frame&viewport=520%2C1663%2C0.43&t=yIAK0wL6St7G2I8T-1&scaling=min-zoom&content-scaling=fixed"
+                      ><i>figma</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 6 -->
+      <div
+        class="modal fade"
+        id="modal6"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1533854775446-95c4609da544?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Beasiswa Pendidikan</h1>
+              <span class="badge rounded-pill text-bg-secondary"
+                >java</span
+              >
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Aplikasi presensi merupakan aplikasi mobile untuk presensi berdasarkan titik koordinat yang dibuat dengan bahasa Java.
+                       proyek ini saya buat dalam ujian BNSP.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Aplikasi Mobile</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">Full-Stack</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link github
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a class="modal-p text-secondary text-decoration-none"
+                      ><i>Tidak tersedia</i></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- modal 7 -->
+      <div
+        class="modal fade"
+        id="modal7"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="cover">
+              <img
+                src="https://images.unsplash.com/photo-1506729623306-b5a934d88b53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="cover"
+              />
+            </div>
+            <div class="icon">
+              <i class="bi bi-laptop-fill text-success"></i>
+            </div>
+            <div class="modal-body mt-4 pb-5">
+              <h1 class="modal-title fs-1">Catatan Keuangan</h1>
+              <span class="badge rounded-pill text-bg-secondary">Figma</span>
+              <!-- content -->
+              <div class="content mt-5">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Project Overview
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">
+                      Catatan Keuangan adalah prototype design yang saya buat
+                      menggunakan figma. Catatan keuangan awalnya dibuat untuk
+                      mengatasi permasalahan keuangan yang dialami mahasiswa,
+                      baik mahasiswa yang menyewa kos, menyewa kontrakan,
+                      ataupun tinggal Bersama orang tua (rumah sendiri). Karena
+                      fitur-fitur yang ada dibuat berdasarkan survey quesioner
+                      dari responden mahasiswa. Namun saya pikir catatan
+                      keuangan dapat digunakan untuk semua orang.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div
+                      class="modal-label bi bi-caret-down-square text-secondary"
+                    >
+                      Category
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">UI/UX Design</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-list-ul text-secondary">
+                      My Role
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <p class="modal-p">UI/UX Designer</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-lg-3">
+                    <div class="modal-label bi bi-justify-left text-secondary">
+                      Link Website
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-lg-9">
+                    <a
+                      class="modal-p text-secondary text-decoration-none"
+                      href="https://www.figma.com/proto/nt2pkhdSVXWiYOlIwlCq2F/Catatan-Keuangan?node-id=23-456&starting-point-node-id=2%3A0&t=UBBWZmafdM5X4Shf-1"
+                      target="_blank"
+                      >Catatan Keuangan</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section id="certificates" class="py-5" data-aos="fade-down">
+  <div class="container">
+    <h2 class="text-center mb-5 certificates-title">My Certificates</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/1 Certivied Developer.png" alt="Certificate in Laravel" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">Certified Developer</h5>
+          <p>Issued by: Alibaba Cloud</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/2 Sertifikat Pelatihan Kominfo.jpg" alt="PHP Programming" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">Python dan Cybersecurity</h5>
+          <p>Issued by: KOMINFO</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/3 html.png" alt="UI/UX Design" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">HTML</h5>
+          <p>Issued by: Codepolitan</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/4 css.png" alt="Web Development" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">css</h5>
+          <p>Issued by: Codepolitan</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/5. Sertifikat UI design.png" alt="Certificate in Laravel" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">UI Designer</h5>
+          <p>Issued by: MySkill</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/6 Sertifikat Figma.png" alt="PHP Programming" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">Figma</h5>
+          <p>Issued by: MySkill</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/7 Sertifikat Microsoft.jpg" alt="UI/UX Design" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">Microsoft Office</h5>
+          <p>Issued by: Politeknik Negeri Jember</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="certificate-card text-center">
+          <div class="certificate-image">
+            <img src="sertif/8 sertif BNSP.png" alt="Web Development" class="img-fluid" style="width: 100%; height: auto; max-height: 200px; object-fit: cover;">
+          </div>
+          <h5 class="certificate-name mt-3">Junior Mobile Programmer</h5>
+          <p>Issued by: BNSP</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- skills -->
+    <section id="skills" class="py-5" data-aos="fade-down">
+      <div class="container">
+        <h2 class="text-center mb-5 skills-title">My Skills</h2>
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon laravel">
+                <i class="fab fa-laravel"></i>
+              </div>
+              <h5 class="skill-name">Laravel</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon php">
+                <i class="fab fa-php"></i>
+              </div>
+              <h5 class="skill-name">PHP</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon bootstrap">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <h5 class="skill-name">Bootstrap</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon figma">
+                <i class="fab fa-figma"></i>
+              </div>
+              <h5 class="skill-name">Figma</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon canva">
+                <span class="canva-icon">C</span>
+              </div>
+              <h5 class="skill-name">Canva</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon mysql">
+                <i class="fas fa-database"></i>
+              </div>
+              <h5 class="skill-name">MySQL</h5>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4">
+            <div class="skill-card">
+              <div class="skill-icon ms-office">
+                <i class="fas fa-file-word"></i>
+              </div>
+              <h5 class="skill-name">MS Office</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Scroll to top -->
+    <div class="button-scroll">
+      <a
+        href="#"
+        class="btn btn-dark fa-solid fa-arrow-up scroll-to-top py-3 px-2"
+        style="display: none"
+      ></a>
+    </div>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="info" style="padding-top: 30px">
+        <div class="footer text-center mb-2">
+          <a
+            href="https://www.instagram.com/rusdaniaa/?hl=en"
+            target="_blank"
+            class="bi bi-instagram mx-1"
+            style="color: #fd1d1d"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/rusdaniaa/"
+            target="_blank"
+            class="bi bi-linkedin mx-1"
+            style="color: #0077b5"
+          ></a>
+          <a
+            href=""
+            target="_blank"
+            class="bi bi-youtube mx-1"
+            style="color: #ff0000"
+          ></a>
+        </div>
+        <p class="footer-p text-center ">
+          rusdaniaa by <b class="text-primary">Bootstrap</b>
+        </p>
+      </div>
+    </footer>
+
+    <!-- aos animasi -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+      });
+    </script>
+
+    <!-- firebase database -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js"></script>
+
+    <!-- firebase database -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-app.js";
+      import {
+        getFirestore,
+        doc,
+        getDoc,
+        updateDoc,
+        increment,
+        collection,
+        query,
+        where,
+        getDocs,
+        setDoc,
+        deleteDoc,
+      } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-firestore.js";
+      import {
+        getAuth,
+        signInAnonymously,
+        onAuthStateChanged,
+      } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBfTPjZybxTJ1Hp72U4ru0QpRYuTlv0Jqg",
+        authDomain: "fitur-like-portofolio.firebaseapp.com",
+        databaseURL:
+          "https://fitur-like-portofolio-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "fitur-like-portofolio",
+        storageBucket: "fitur-like-portofolio.appspot.com",
+        messagingSenderId: "352307667051",
+        appId: "1:352307667051:web:600b73767fa356aaab512e",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+      const auth = getAuth(app);
+
+      const likeButton = document.getElementById("like-button");
+      const likeCount = document.getElementById("like-count");
+
+      const postId = "portofolio-likes";
+      const postRef = doc(db, "posts", postId);
+
+      async function updateLikeCount(user) {
+        try {
+          console.log("Attempting to update like count...");
+          const docSnap = await getDoc(postRef);
+
+          if (docSnap.exists()) {
+            // Cek apakah pengguna sudah memberikan like
+            const likesRef = collection(postRef, "likes");
+            const userLikeQuery = query(
+              likesRef,
+              where("userId", "==", user.uid)
+            );
+            const userLikeSnap = await getDocs(userLikeQuery);
+
+            if (!userLikeSnap.empty) {
+              console.log("User has already liked this post. Removing like...");
+
+              // Hapus like
+              await updateDoc(postRef, {
+                likes: increment(-1),
+              });
+
+              // Hapus informasi pengguna yang memberikan like
+              await deleteDoc(doc(likesRef, user.uid));
+
+              // Ubah ikon tombol menjadi bi-star
+              likeButton.classList.remove("bi-star-fill");
+              likeButton.classList.add("bi-star");
+            } else {
+              console.log("User has not liked this post. Adding like...");
+
+              // Tambahkan jumlah like
+              await updateDoc(postRef, {
+                likes: increment(1),
+              });
+
+              // Simpan informasi pengguna yang memberikan like
+              await setDoc(doc(likesRef, user.uid), {
+                userId: user.uid,
+                timestamp: new Date(),
+              });
+
+              // Ubah ikon tombol menjadi bi-star-fill
+              likeButton.classList.remove("bi-star");
+              likeButton.classList.add("bi-star-fill");
+            }
+
+            // Menampilkan jumlah like yang diperbarui
+            const updatedDocSnap = await getDoc(postRef);
+            const updatedData = updatedDocSnap.data();
+            likeCount.textContent = `Star ${updatedData.likes}`;
+          } else {
+            console.log("Dokumen tidak ditemukan!");
+          }
+        } catch (error) {
+          console.error("Error saat memperbarui jumlah like: ", error);
+        }
+      }
+
+      async function initializeLikeCount() {
+        try {
+          console.log("Initializing like count...");
+          const docSnap = await getDoc(postRef);
+
+          if (docSnap.exists()) {
+            const data = docSnap.data();
+            likeCount.textContent = `Star ${data.likes || 0}`;
+          } else {
+            console.log("Dokumen tidak ditemukan saat inisialisasi!");
+          }
+        } catch (error) {
+          console.error("Error saat mengambil jumlah like: ", error);
+        }
+      }
+
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          likeButton.addEventListener("click", () => updateLikeCount(user));
+        } else {
+          signInAnonymously(auth)
+            .then(() => {
+              console.log("Signed in anonymously");
+            })
+            .catch((error) => {
+              console.error("Error signing in anonymously: ", error);
+            });
+        }
+      });
+
+      initializeLikeCount();
+    </script>
+
+    <!-- myjs -->
+    <script src="script.js"></script>
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.3/dist/sweetalert2.all.min.js"></script>
+
+    <script type="text/JavaScript">
+      function star() {
+        document.getElementById('clickSound').play();
+
+        Swal.fire({
+          title: "Thankyou🙌╰(*°▽°*)╯",
+          imageUrl: "img/Yuji-Itadori-PNG.png",
+          imageWidth: 400,
+          imageHeight: 500,
+          imageAlt: "Makasi",
+          showConfirmButton: false,
+          timer: 4000
+        });
+      }
+      function sweetalert() {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Halaman web tidak tersedia!",
+          confirmButtonColor: "	#000000"
+        });
+      }
+    </script>
+    <!-- Print PDF -->
+    <script>
+      function PrintPDF() {
+        window.open("file/cv_siti rusdaniyah.pdf");
+      }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
